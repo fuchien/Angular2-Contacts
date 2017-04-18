@@ -13,7 +13,7 @@ import { ServiceInterface } from './../interfaces/service.interface';
 
 export class ContatoService implements ServiceInterface<Contato> {
 
-    private contatosUrl = 'app/contatos';
+    private contatosUrl = 'https://ng2contact.herokuapp.com/app/contatos';
     private headers: Headers = new Headers({'Content-Type': 'application/json'});
 
     constructor(
