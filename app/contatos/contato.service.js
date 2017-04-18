@@ -15,7 +15,7 @@ require("rxjs/add/operator/map");
 let ContatoService = class ContatoService {
     constructor(http) {
         this.http = http;
-        this.contatosUrl = 'app/contatos';
+        this.contatosUrl = 'app/contatos'; //'https://ng2contact.herokuapp.com/app/contatos';
         this.headers = new http_1.Headers({ 'Content-Type': 'application/json' });
     }
     /**
